@@ -18,7 +18,7 @@ const StackRoutes = () => {
       />
       <Stack.Screen
         name={RoutesNames.PAGE1_2}
-        component={TabRoutes}
+        component={Page1_2}
         options={{headerShown: false}}
       />
       <Stack.Screen
