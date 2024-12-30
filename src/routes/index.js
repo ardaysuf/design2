@@ -6,7 +6,12 @@ import TabRoutes from './TabRoutes';
 const App = () => {
   return (
     <NavigationContainer>
-      <StackRoutes/>
+      <NavigationContainer>
+        <StackRoutes />
+      </NavigationContainer>
+      <NavigationContainer>
+        <TabRoutes />
+      </NavigationContainer>
     </NavigationContainer>
   );
 };
